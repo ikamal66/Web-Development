@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px; /*0px is for (upper-niche) kitna move hona hai or 40px (left-right) moves in the horizontal direction*/
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#nav h3{
+    font-size: 20px;
+    border: 1.5px solid black;
+    font-weight: 500; /* control the thickness (boldness) */
+    padding: 5px 10px;
+    border-radius: 50px; /* create rounded corners */
+}
+#nav i{
+    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav button{
+    font-weight: 500;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+#btn2{
+   background-color: orangered;
+   color: white;
+   border: none;
+}
+#main>h1{  /* main ke andar direct h1 ko link karega ab */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 110px;
+    text-align: center;
+}
+img{
+    height: 380px;
+    width: 340px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    border-radius: 26px;
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#btm-left{
+    position: absolute;
+   bottom: 5%;
+   left: 5%;
+   font-size: 25px;
+}
+#btm-right{
+    position: absolute;
+   bottom: 5%;
+   right: 5%;
+   font-size: 15px;
+}
+#instagram{
+    position: absolute;
+   bottom: 10%;
+   right: 10%;
+   font-size: 15px;
+}
+#facebook{
+    position: absolute;
+   bottom: 10%;
+   right: 8%;
+   font-size: 15px;
+}
+#yt{
+    position: absolute;
+    bottom: 10%;
+    right: 6%;
+    font-size: 15px;
+}

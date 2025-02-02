@@ -1,0 +1,94 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+}
+
+.menu-btn {
+    background: none;
+    border: 1px solid black;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth-buttons button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-btn {
+    background: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 50px;
+    position: relative;
+}
+
+.big-text {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.big-text span {
+    font-size: 80px;
+}
+
+/* Image Stack Effect */
+.image-stack {
+    position: relative;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.stack-layer {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.layer1 {
+    background: gold;
+    transform: rotate(-15deg);
+}
+
+.layer2 {
+    background: beige;
+    transform: rotate(10deg);
+}
+
+.layer3 img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
